@@ -2,17 +2,28 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Картинка и текст</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes, minimal-ui">
+	<meta name="robots" content="index,follow" />
+	<meta name="language" content="en" />
+	<link rel="shortcut icon" href="favicon.svg" type="image/svg+xml"/>
+    
+	<title>Stargate</title>
+	<meta name="application-name" content="Stargate">
+	<meta name="description" content="A fully composable native asset bridge with unified liquidity and instant guaranteed finality built on top of LayerZero.">
+	<meta name="keywords" content="layerzero, blockchain, crypto, message, transaction, omnichain, bridge">
+	<meta property="og:title" content="Stargate" />
+	
+	<meta property="og:image" content="favicon.svg" />
+	
     <style>
-        /* Стили для картинки */
+		body {
+			padding: 0;
+			margin: 0;
+		}
         .full-screen-image {
             width: 100%;
-            height: 100vh; /* Во весь экран по высоте */
-            object-fit: cover; /* Обрезает изображение, чтобы оно заполнило весь экран */
+            object-fit: cover;
         }
-
-        /* Стили для текста */
         .text {
             padding: 20px;
             font-size: 24px;
@@ -22,12 +33,40 @@
 </head>
 <body>
 
-    <!-- Картинка на весь экран -->
-    <img src="/stargate.png" alt="Картинка" class="full-screen-image">
+    <img src="screen.png" alt="site screen" class="full-screen-image">
 
-    <!-- Текст под картинкой -->
-    <div class="text">
-        <p>Здесь может быть ваш текст, который будет отображаться под картинкой.</p>
+    <div style="display:none">
+        About Stargate
+Stargate is a fully composable liquidity
+transport protocol that lives at the
+heart of Omnichain DeFi
+With Stargate, users & dApps can transfer native assets cross-chain while accessing
+the protocol’s unified liquidity pools with instant guaranteed finality. The universe is
+infinite with Stargate.
+Transfer
+Swap 1:1 native assets cross-chain, accessing Stargate’s unified liquidity pools.
+Stargate transfers have instant guaranteed finality; a transfer submitted on the source chain is guaranteed on the destination.
+Transfer
+Pools
+Add liquidity to Stargate’s Omnichain protocol and earn stablecoin rewards on every Stargate transfer.
+Liquidity providers can also farm their LP tokens to receive STG token rewards.
+Pools
+Farms
+Stargate liquidity providers can farm their LP tokens in exchange for STG rewards.
+Earn STG and become a member of the Stargate community.
+Farms
+Stake
+STG holders can lock their STG tokens to receive veSTG, Stargate’s governance token.
+The longer users stake their STG tokens, the more veSTG they will receive.
+Stargate Pool
+Add liquidity to Stargate’s omnichain protocol and earn stablecoin rewards on every Stargate
+transfer. Liquidity providers can also farm their LP tokens to receive STG token rewards.
+Stargate Farm
+Stargate liquidity providers can farm their LP tokens in exchange for STG rewards.
+Earn STG and become a member of the Stargate community.
+Stargate Stake
+Lock your STG tokens to receive veSTG, the unit of Stargate governance voting power.
+Stargate is governed entirely by Stargate token holders via voting escrow.
     </div>
 
 </body>
