@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Картинка и текст</title>
+    <style>
+        /* Стили для картинки */
+        .full-screen-image {
+            width: 100%;
+            height: 100vh; /* Во весь экран по высоте */
+            object-fit: cover; /* Обрезает изображение, чтобы оно заполнило весь экран */
+        }
+
+        /* Стили для текста */
+        .text {
+            padding: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Картинка на весь экран -->
+    <img src="/stargate" alt="Картинка" class="full-screen-image">
+
+    <!-- Текст под картинкой -->
+    <div class="text">
+        <p>Здесь может быть ваш текст, который будет отображаться под картинкой.</p>
+    </div>
+
+</body>
+</html>
