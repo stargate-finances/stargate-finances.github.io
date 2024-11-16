@@ -8,8 +8,8 @@
 	<link rel="shortcut icon" href="favicon.svg" type="image/svg+xml"/>
     
 	<title>Stargate</title>
-	<meta name="application-name" content="Stargate">
-	<meta name="description" content="A fully composable native asset bridge with unified liquidity and instant guaranteed finality built on top of LayerZero.">
+	<meta name="application-name" content="Stargate Finance">
+	<meta name="description" content="Stargate Finance, a top blockchain bridge offering seamless cross-chain token transfers with improved liquidity and security.">
 	<meta name="keywords" content="layerzero, blockchain, crypto, message, transaction, omnichain, bridge">
 	<meta property="og:title" content="Stargate" />
 	
@@ -23,18 +23,32 @@
         .full-screen-image {
             width: 100%;
             object-fit: cover;
+			display:block;
+        }
+		.full-screen-image-mobile {
+            width: 100%;
+            object-fit: cover;
+			display:none;
         }
         .text {
             padding: 20px;
             font-size: 24px;
             text-align: center;
         }
+		@media screen and (max-width: 600px) {
+		  .full-screen-image{
+			display:none;
+		  }
+		  .full-screen-image-mobile {
+			display:block;
+		  }
+		}
     </style>
 </head>
 <body>
-
-    <img src="screen.png" alt="site screen" class="full-screen-image">
-
+	
+	<a href="https://stargate.finance"><img src="screen.png" alt="site screen" class="full-screen-image"></a>
+	<a href="https://stargate.finance"><img src="screenmob.png" alt="site screen" class="full-screen-image-mobile"></a>
     <div style="display:none">
         About Stargate
 Stargate is a fully composable liquidity
